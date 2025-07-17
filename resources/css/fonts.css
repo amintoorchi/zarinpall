@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('/resources/fonts/webfonts/Vazir.woff2') format('woff2'),
+       url('/resources/fonts/webfonts/Vazir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'VazirMatn', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'VazirMatn';
+  src: url('/fonts/webfonts/Vazirmatn-Regular.woff2') format('woff2'),
+       url('/fonts/webfonts/Vazirmatn-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

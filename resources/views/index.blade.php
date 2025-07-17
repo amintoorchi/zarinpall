@@ -8,13 +8,13 @@
     <title>زرین پال | ارائه دهنده خدمات پرداخت</title>
     <link rel="shortcut icon" href="images/logo/mark/PNG/ZarinPal_Mark.png" type="image/x-icon">
     <!-- فونت ایرانی Vazirmatn -->
-    <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet" type="text/css" /> -->
 
     @vite('resources/css/app.css')
 
     <style>
         body {
-            font-family: 'Vazir', sans-serif;
+            font-family: 'VazirMatn', sans-serif;
         }
     </style>
 </head>
