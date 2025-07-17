@@ -111,14 +111,17 @@
 
 
 
-    <div class="shadow-2xl shadow-gray-400 h-[90vh] mx-auto my-10 rounded-2xl bg-gray-50 w-8/9 flex flex-col-reverse md:flex-row-reverse justify-around items-center gap-10 p-15">
-        <div class="text-center md:text-right md:w-1/2">
-            <h1 class=" text-2xl my-0 md:text-4xl text-gray-700">
-                مهندسی شده برای رشد و فروش بیش‌تر
-            </h1>
-            <p class=" leading-relaxed text-gray-500">
-                درگاه پرداخت زرین‌پال، با اتصال همزمان به درگاه‌های متنوع و معتبر بانکی (PSPها)، کاربران را به سریع‌ترین و مطمئن‌ترین درگاه بانکی منتقل می‌کند و به واسطه‌ی قابلیت مسیردهی هوشمند، باعث افزایش فروش و درصد تراکنش‌های موفق می‌شود.
-            </p>
+
+    <div
+        class=" shadow-2xl shadow-gray-950 mx-auto my-10 p-10 h-fit rounded-2xl bg-gray-50 w-8/9 flex flex-col md:flex-row justify-around items-center gap-10">
+
+        <div class="md:w-1/2 mb-5 flex justify-center">
+            <img src="/images/logo/Img_PGSection.webp" class="w-60 sm:w-80 md:w-150" alt="">
+        </div>
+
+        <div class="text-center md:text-right md:w-1/2 my-1">
+            <h1 class="text-black font-bold text-2xl my-5 md:text-4xl"> مهندسی شده برای رشد و فروش بیش‌تر</h1>
+            <p class="text-gray-400 leading-relaxed">درگاه پرداخت زرین‌پال، با اتصال همزمان به درگاه‌های متنوع و معتبر بانکی (PSPها)، کاربران را به سریع‌ترین و مطمئن‌ترین درگاه بانکی منتقل می‌کند و به واسطه‌ی قابلیت مسیردهی هوشمند، باعث افزایش فروش و درصد تراکنش‌های موفق می‌شود.</p>
             <button class=" bg-blue-800 p-3 w-40 mx-auto rounded-xl text-white mt-10 hover:bg-blue-600 hover:text-black transition-all hover:transition-all hover:cursor-pointer hover:shadow-xl hover:shadow-gray-200 hover:scale-100 transform">
                 ساخت درگاه پرداخت
             </button>
@@ -126,28 +129,29 @@
                 مطالعه بیشتر =>
             </button>
         </div>
-        <div class="md:w-1/2 mb-0 flex justify-center">
-            <img src="/images/logo/Img_PGSection.webp" class="w-60 sm:w-80 md:w-150" alt="">
-        </div>
     </div>
 
 
 
 
-    <div
-        class="my-44 shadow-2xl shadow-gray-950 mx-auto p-10 h-fit rounded-2xl bg-gradient-to-br from-black via-slate-950 to-yellow-900 w-8/9 flex flex-col-reverse md:flex-row-reverse justify-around items-center gap-10">
 
-        <div class="md:w-1/2 mb-5 flex justify-center items-end h-2/9">
-            <img src="/images/logo/Img_Devdocs.webp" class="w-full h-1/2 object-cover" alt="">
+
+
+    <div class="my-44 shadow-2xl shadow-gray-950 mx-auto p-10 h-[90vh] rounded-2xl bg-gradient-to-br from-black via-slate-950 to-yellow-900 w-8/9 flex flex-col-reverse md:flex-row-reverse justify-around items-center gap-10">
+
+        <div class="md:w-1/2 flex justify-center items-center">
+            <img src="/images/logo/Img_Devdocs.webp" class="w-full max-w-[800px] h-auto object-contain" alt="زرین‌پال">
         </div>
 
-        <div class="text-center md:text-right md:w-1/2 my-10">
-            <h1 class="text-white mb-14 text-2xl my-5 md:text-4xl font-bold">راهنمای کامل و جامع سرویس‌ها و API های زرین‌پال</h1>
-            <p class="text-gray-400 leading-relaxed">
+        <div class="text-center md:text-right md:w-1/2">
+            <h1 class="text-white mb-1 text-2xl my-10 md:text-4xl font-bold">
+                راهنمای کامل و جامع سرویس‌ها و API های زرین‌پال
+            </h1>
+            <p class="text-gray-400 leading-relaxed my-5">
                 زرین‌پال با کمک افزونه‌ها و نمونه کدهای آماده درگاه پرداخت زرین‌پال، دردسرهای افزودن به سایت و نیاز به کدنویسی را به حداقل رسانده است.
             </p>
             <button
-                class="bg-gray-400 p-3 w-35 mx-auto rounded-xl text-black mt-10 hover:bg-gray-200 hover:text-black transition-all hover:transition-all hover:cursor-pointer hover:shadow-xl ">
+                class="bg-gray-400 p-3 w-40 mx-auto rounded-xl text-black mt-10 hover:bg-gray-200 hover:text-black transition-all hover:shadow-xl">
                 مستندات
             </button>
         </div>
@@ -156,7 +160,7 @@
 
 
 
-    <div class="my-44 shadow-2xl shadow-gray-950 mx-auto h-[70vh] rounded-2xl bg-gradient-to-r from-slate-950 via-indigo-950 to-slate-950 w-8/9 flex flex-col justify-between text-center relative overflow-hidden"> <!-- متن -->
+    <div class="my-44 shadow-2xl shadow-gray-950 mx-auto h-[90vh] rounded-2xl bg-gradient-to-r from-slate-950 via-indigo-950 to-slate-950 w-8/9 flex flex-col justify-between text-center relative overflow-hidden"> <!-- متن -->
         <div class="pt-35 z-10"> <span class="block text-yellow-500 font-bold text-xl md:text-2xl xl:text-3xl mb-6">
                 به خانواده یک میلیونی زرین‌پال بپیوندید </span> <span
                 class="block text-yellow-200 text-sm md:text-xl xl:text-2xl"> یک ماه رایگان، هدیه‌ی عضویت زرین‌پال
