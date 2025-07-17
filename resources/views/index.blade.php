@@ -25,20 +25,21 @@
     </div>
 
     <div class="menu w-full bg-white shadow-xl sticky top-9 z-50">
-        <div class="container mx-auto p-3 flex justify-between items-center ">
+        <div class="container mx-auto p-1.5 flex justify-between items-center ">
             <a href="{{route('home')}}"><img class="w-30" src="/images/logo/zarinpal-logo.svg" alt=""></a>
-            <ul
-                class="list-none flex text-gray-700 gap-0 text-sm flex-wrap sm:gap-4 sm:font-bold  sm:text-md md:font-bold  md:gap-7 md:text-md xl:gap-14">
+            <ul class="list-none invisible sm:invisible md:visible xl:visible 2xl:visible flex text-gray-700 text-sm flex-wrap sm:gap-4 sm:font-bold  sm:text-md md:font-bold  md:gap-7 md:text-md xl:gap-14">
                 <li><a href="{{route('home')}}" class="hover:bg-gray-200 rounded-full py-3 px-3">خانه</a></li>
                 <li><a href="#" class="hover:bg-gray-200 rounded-full py-3 p-2">توسعه دهندگان ما</a></li>
                 <li><a href="#" class="hover:bg-gray-200 rounded-full py-3 p-2">تماس با ما<a></li>
                 <li><a href="#" class="hover:bg-gray-200 rounded-full py-3 p-2">همکاری با ما</a></li>
             </ul>
             <button
-                class="bg-blue-800 py-2 md:w-35 md:p-3 text-sm w-30 rounded-full text-white hover:bg-blue-950 transition-all hover:transition-all hover:cursor-pointer ">ورود
+                class="bg-blue-800 w-50 text-xs py-2 md:w-35 md:p-3 rounded-full text-white hover:bg-blue-950 transition-all hover:transition-all hover:cursor-pointer duration-400  ">ورود
                 یا
                 ثبت
                 نام</button>
+            <img src="/images/logo/burger-list-menu-navigation-svgrepo-com.svg" class="w-10 mr-5 md:hidden xl:hidden 2xl:hidden hover:cursor-pointer hover:rotate-180 transition-all hvoer:transition-all duration-400 hover:scale-110 hover:transform hover:scale-x-[-1]" alt="">
+
         </div>
     </div>
 
@@ -110,9 +111,9 @@
 
 
 
-    <div class="shadow-2xl shadow-gray-400 h-[80vh] mx-auto my-10 rounded-2xl bg-gray-50 w-8/9 flex flex-col-reverse md:flex-row-reverse justify-around items-center gap-10 p-15">
-        <div class="text-center md:text-right md:w-1/2 my-0">
-            <h1 class=" text-2xl my-5 md:text-4xl text-gray-700">
+    <div class="shadow-2xl shadow-gray-400 h-[90vh] mx-auto my-10 rounded-2xl bg-gray-50 w-8/9 flex flex-col-reverse md:flex-row-reverse justify-around items-center gap-10 p-15">
+        <div class="text-center md:text-right md:w-1/2">
+            <h1 class=" text-2xl my-0 md:text-4xl text-gray-700">
                 مهندسی شده برای رشد و فروش بیش‌تر
             </h1>
             <p class=" leading-relaxed text-gray-500">
@@ -121,7 +122,7 @@
             <button class=" bg-blue-800 p-3 w-40 mx-auto rounded-xl text-white mt-10 hover:bg-blue-600 hover:text-black transition-all hover:transition-all hover:cursor-pointer hover:shadow-xl hover:shadow-gray-200 hover:scale-100 transform">
                 ساخت درگاه پرداخت
             </button>
-            <button class="mb-44 border-1 border-gray-400/50  p-3 w-40 mx-auto rounded-xl text-black mt-10 transition-all hover:transition-all hover:cursor-pointer hover:shadow-xl hover:shadow-gray-300 hover:border-1 hover:border-gray-400 hover:scale-100">
+            <button class="mb-0 border-1 border-gray-400/50  p-3 w-40 mx-auto rounded-xl text-black mt-10 transition-all hover:transition-all hover:cursor-pointer hover:shadow-xl hover:shadow-gray-300 hover:border-1 hover:border-gray-400 hover:scale-100">
                 مطالعه بیشتر =>
             </button>
         </div>
@@ -155,20 +156,46 @@
 
 
 
-<div class="my-44 shadow-2xl shadow-gray-950 mx-auto h-[70vh] rounded-2xl bg-gradient-to-r from-slate-950 via-indigo-950 to-slate-950 w-8/9 flex flex-col justify-between text-center relative overflow-hidden"> <!-- متن -->
-            <div class="pt-35 z-10"> <span class="block text-yellow-500 font-bold text-xl md:text-2xl xl:text-3xl mb-6">
-                    به خانواده یک میلیونی زرین‌پال بپیوندید </span> <span
-                    class="block text-yellow-200 text-sm md:text-xl xl:text-2xl"> یک ماه رایگان، هدیه‌ی عضویت زرین‌پال
-                    به
-                    شما </span> </div>
-            <!-- عکس -->
-            <div class="w-full flex justify-center items-end h-full absolute bottom-0 left-0"> <img
-                    src="/images/logo/Img_Collection.webp" class="w-full max-h-[40%] object-contain" alt=""> </div>
+    <div class="my-44 shadow-2xl shadow-gray-950 mx-auto h-[70vh] rounded-2xl bg-gradient-to-r from-slate-950 via-indigo-950 to-slate-950 w-8/9 flex flex-col justify-between text-center relative overflow-hidden"> <!-- متن -->
+        <div class="pt-35 z-10"> <span class="block text-yellow-500 font-bold text-xl md:text-2xl xl:text-3xl mb-6">
+                به خانواده یک میلیونی زرین‌پال بپیوندید </span> <span
+                class="block text-yellow-200 text-sm md:text-xl xl:text-2xl"> یک ماه رایگان، هدیه‌ی عضویت زرین‌پال
+                به
+                شما </span> </div>
+        <!-- عکس -->
+        <div class="w-full flex justify-center items-end h-full absolute bottom-0 left-0"> <img
+                src="/images/logo/Img_Collection.webp" class="w-full max-h-[40%] object-contain" alt=""> </div>
+    </div>
+
+
+
+
+
+    <div class="h-[80vh] mt-64 mb-24 shadow-2xl shadow-gray-200 mx-auto justify-center text-center my-10 rounded-2xl bg-gradient-to-b from-gray-100 to-white w-8/9 flex flex-col-reverse md:flex-row-reverse items-center gap-10 p-15">
+        <div class="text-center md:w-1/2 mt-44">
+            <h1 class="text-2xl my-5 md:text-4xl text-gray-900 mb-20 text-center">
+                راهکاری هوشمند برای افزایش فروش و تجربه پرداخت مطمئن
+            </h1>
+            <p class="leading-relaxed text-gray-500 text-center">
+                زرین‌پال با اتصال همزمان به درگاه‌های بانکی معتبر و پشتیبانی از مسیردهی هوشمند، تجربه‌ای سریع، امن و بدون دغدغه برای کاربران شما فراهم می‌کند. با بهره‌گیری از فناوری‌های نوین، درصد موفقیت تراکنش‌ها را افزایش دهید و رشد کسب‌وکارتان را به سطحی بالاتر ببرید.
+            </p>
         </div>
+    </div>
 
 
 
 
 </body>
-
+<footer class="bg-white mx-auto text-center text-gray-600 font-black flex justify-center">
+    <span class="w-8/9 my-4">
+        <div class="w/3/4 my-4 space-x-4">
+            <a href="{{ route('home') }}" class="hover:cursor-pointer hover:text-gray-400 transition-all hover:transition-all">خانه</a>
+            <a href="٫" class="hover:cursor-pointer hover:text-gray-400 transition-all hover:transition-all">درباره ما</a>
+            <a href="٫" class="hover:cursor-pointer hover:text-gray-400 transition-all hover:transition-all">تماس با ما</a>
+            <a href="٫" class="hover:cursor-pointer hover:text-gray-400 transition-all hover:transition-all">توسعه دهندگان</a>
+        </div>
+        <div class="my-4 bg-gray-200 w-2/3 mx-auto h-0.5"></div>
+            تمامی حقوق محفوظ است
+    </span>
+</footer>
 </html>
